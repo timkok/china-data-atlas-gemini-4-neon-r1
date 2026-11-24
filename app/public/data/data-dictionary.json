@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-24T04:02:39Z",
+  "file": "observations.csv",
+  "encoding": "UTF-8",
+  "missing_value_representation": "empty string (never 0)",
+  "columns": [
+    {
+      "name": "indicator_id",
+      "type": "string",
+      "description_zh": "统一指标唯一标识"
+    },
+    {
+      "name": "indicator_name_zh",
+      "type": "string",
+      "description_zh": "指标中文标准名称"
+    },
+    {
+      "name": "indicator_name_en",
+      "type": "string",
+      "description_zh": "指标英文名称"
+    },
+    {
+      "name": "geo_code",
+      "type": "string",
+      "description_zh": "行政区划代码（000000为全国，110000-650000遵循GB/T 2260省级代码）"
+    },
+    {
+      "name": "geo_name_zh",
+      "type": "string",
+      "description_zh": "地区中文全称"
+    },
+    {
+      "name": "geo_name_en",
+      "type": "string",
+      "description_zh": "地区英文名称"
+    },
+    {
+      "name": "geo_level",
+      "type": "enum(national|provincial)",
+      "description_zh": "行政层级：全国或省级"
+    },
+    {
+      "name": "year",
+      "type": "integer",
+      "description_zh": "实际统计年份（非发布年份）"
+    },
+    {
+      "name": "value",
+      "type": "number|null",
+      "description_zh": "机器可读统计数值；缺失保留为空"
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "description_zh": "标准化基准单位"
+    },
+    {
+      "name": "source_id",
+      "type": "string",
+      "description_zh": "数据来源编号（关联sources.csv）"
+    },
+    {
+      "name": "source_agency",
+      "type": "string",
+      "description_zh": "官方发布机构"
+    },
+    {
+      "name": "source_url",
+      "type": "url",
+      "description_zh": "官方原始来源链接"
+    },
+    {
+      "name": "source_table",
+      "type": "string",
+      "description_zh": "原始统计表格或公报名称"
+    },
+    {
+      "name": "source_locator",
+      "type": "string",
+      "description_zh": "原始表内定位信息（表号/行列/代码）"
+    },
+    {
+      "name": "publication_date",
+      "type": "ISO-8601 date",
+      "description_zh": "官方发布日期"
+    },
+    {
+      "name": "retrieved_at",
+      "type": "ISO-8601 datetime",
+      "description_zh": "数据获取时间（UTC）"
+    },
+    {
+      "name": "data_status",
+      "type": "enum(final|preliminary|revised|unknown)",
+      "description_zh": "数据状态（终核/初步/修订/未知）"
+    },
+    {
+      "name": "methodology_version",
+      "type": "string",
+      "description_zh": "统计口径与核算版本标识"
+    },
+    {
+      "name": "transformation",
+      "type": "string",
+      "description_zh": "单位换算或处理规则说明"
+    },
+    {
+      "name": "verification_status",
+      "type": "enum(verified|partially_verified|unverified)",
+      "description_zh": "核验状态"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description_zh": "口径说明、修订注释与已知局限"
+    }
+  ]
+}
