@@ -1,0 +1,746 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/25.9.0_3/bin/node",
+      "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/app/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.config.ts"
+    ],
+    "configFile": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/app/playwright.config.ts",
+    "rootDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e",
+        "snapshotDir": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3100",
+          "trace": "off",
+          "screenshot": "off",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../reports/browser_test_report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "atlas.spec.ts",
+      "file": "atlas.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "China Data Atlas — Comprehensive E2E QA & Acceptance Tasks (A-J)",
+          "file": "atlas.spec.ts",
+          "line": 44,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01. Homepage loads cleanly across Desktop (1440), Tablet (768), Mobile (390) with zero console errors & zero overflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1796,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:50.315Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-ec2759b184cc8d5bf675",
+              "file": "atlas.spec.ts",
+              "line": 84,
+              "column": 3
+            },
+            {
+              "title": "02. Global search, synonym matching, category filtering, keyboard Esc, and static SEO assets",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1783,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:52.340Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-147c93c66a559d1a07a3",
+              "file": "atlas.spec.ts",
+              "line": 134,
+              "column": 3
+            },
+            {
+              "title": "03. Task A & J: Find Guangdong latest resident population, verify against CSV, and trace official source",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2520,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:54.129Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-416ae3aff00c6594bbec",
+              "file": "atlas.spec.ts",
+              "line": 163,
+              "column": 3
+            },
+            {
+              "title": "04. Task B: Compare Jiangsu, Zhejiang, and Guangdong population trend since 2015",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 868,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:56.655Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-477e73dcf850ae5adb13",
+              "file": "atlas.spec.ts",
+              "line": 225,
+              "column": 3
+            },
+            {
+              "title": "05. Task C: Inspect 2020 population_65plus ranking and verify 7th Census full-enumeration methodology",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 930,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:57.529Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-79250594d806dcebb53b",
+              "file": "atlas.spec.ts",
+              "line": 250,
+              "column": 3
+            },
+            {
+              "title": "06. Task D: Inspect latest provincial GDP per capita, verify current-price definition and year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 772,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:58.467Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-3138857876394e14c277",
+              "file": "atlas.spec.ts",
+              "line": 283,
+              "column": 3
+            },
+            {
+              "title": "07. Task E: Compare Shandong, Henan, and Guangdong per capita disposable income",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 902,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:06:59.246Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-6e63d0229afb548f57a6",
+              "file": "atlas.spec.ts",
+              "line": 306,
+              "column": 3
+            },
+            {
+              "title": "08. Task F & Tie-Rank Check: Inspect physicians_per_1000 ranking + ascending/descending toggle + ties",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1469,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:07:00.155Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-cae7ab7798034e6c0f1e",
+              "file": "atlas.spec.ts",
+              "line": 329,
+              "column": 3
+            },
+            {
+              "title": "09. Task G: Download filtered CSV from Data Explorer and verify file content matches displayed table",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1224,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:07:01.631Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-4a9af6b3ef1cdd691052",
+              "file": "atlas.spec.ts",
+              "line": 361,
+              "column": 3
+            },
+            {
+              "title": "10. Task H: Mobile (390px) search, year switch, and source provenance verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1094,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:07:02.862Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-99598fc2cf3315560bc5",
+              "file": "atlas.spec.ts",
+              "line": 403,
+              "column": 3
+            },
+            {
+              "title": "11. Task I: Select a missing year and verify zero fabricated values",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 779,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:07:03.961Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-310e253403a56de09a7d",
+              "file": "atlas.spec.ts",
+              "line": 444,
+              "column": 3
+            },
+            {
+              "title": "12. Cross-Indicator Explorer (/explore) & Methodology (/methodology) render cleanly with zero console errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                        "line": 44,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1428,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-24T04:07:04.746Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/tian/.gemini/antigravity/scratch/china-data-atlas-gemini-4-neon-r1/tests/e2e/atlas.spec.ts",
+                            "line": 44,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bed8efe74e8526a653f7-3269e8cb982b3fab2b19",
+              "file": "atlas.spec.ts",
+              "line": 471,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-24T04:06:50.061Z",
+    "duration": 16166.081999999999,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

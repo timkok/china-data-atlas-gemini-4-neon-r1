@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-11-24T04:01:40Z",
+  "observations_file": "data/normalized/observations.csv",
+  "summary": {
+    "core_indicators_target": 12,
+    "core_indicators_available": 12,
+    "core_indicators_verified": 12,
+    "unique_valid_observations": 9110,
+    "verified_observations": 9110,
+    "distinct_sources": 3,
+    "regions_covered_mainland": 31,
+    "earliest_data_year": 2000,
+    "latest_data_year": 2025,
+    "mean_latest_provincial_coverage": 1.0,
+    "errors_count": 0,
+    "warnings_count": 27,
+    "gate_passed": true
+  },
+  "additive_consistency_checks": [
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2000,
+      "provincial_sum": 5560700.0,
+      "national_value": 5561000.0,
+      "diff_pct": 0.0054
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2001,
+      "provincial_sum": 7190600.0,
+      "national_value": 7191000.0,
+      "diff_pct": 0.0056
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2002,
+      "provincial_sum": 9033700.0,
+      "national_value": 9034000.0,
+      "diff_pct": 0.0033
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2003,
+      "provincial_sum": 11085400.0,
+      "national_value": 11086000.0,
+      "diff_pct": 0.0054
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2004,
+      "provincial_sum": 13334800.0,
+      "national_value": 13335000.0,
+      "diff_pct": 0.0015
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2005,
+      "provincial_sum": 15618300.0,
+      "national_value": 15618000.0,
+      "diff_pct": 0.0019
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2006,
+      "provincial_sum": 17388200.0,
+      "national_value": 17388000.0,
+      "diff_pct": 0.0012
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2007,
+      "provincial_sum": 18849100.0,
+      "national_value": 18849000.0,
+      "diff_pct": 0.0005
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2008,
+      "provincial_sum": 20210300.0,
+      "national_value": 20210000.0,
+      "diff_pct": 0.0015
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2009,
+      "provincial_sum": 21446700.0,
+      "national_value": 21447000.0,
+      "diff_pct": 0.0014
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2010,
+      "provincial_sum": 22317800.0,
+      "national_value": 22318000.0,
+      "diff_pct": 0.0009
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2011,
+      "provincial_sum": 23085300.0,
+      "national_value": 23085000.0,
+      "diff_pct": 0.0013
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2012,
+      "provincial_sum": 23913100.0,
+      "national_value": 23913000.0,
+      "diff_pct": 0.0004
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2013,
+      "provincial_sum": 24680600.0,
+      "national_value": 24681000.0,
+      "diff_pct": 0.0016
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2014,
+      "provincial_sum": 25476800.0,
+      "national_value": 25477000.0,
+      "diff_pct": 0.0008
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2015,
+      "provincial_sum": 26253200.0,
+      "national_value": 26253000.0,
+      "diff_pct": 0.0008
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2016,
+      "provincial_sum": 26958600.0,
+      "national_value": 26958000.0,
+      "diff_pct": 0.0022
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2017,
+      "provincial_sum": 27536100.0,
+      "national_value": 27536000.0,
+      "diff_pct": 0.0004
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2018,
+      "provincial_sum": 28310200.0,
+      "national_value": 28310348.0,
+      "diff_pct": 0.0005
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2019,
+      "provincial_sum": 30315200.0,
+      "national_value": 30315262.0,
+      "diff_pct": 0.0002
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2020,
+      "provincial_sum": 32853200.0,
+      "national_value": 32852948.0,
+      "diff_pct": 0.0008
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2021,
+      "provincial_sum": 34961300.0,
+      "national_value": 34961307.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2022,
+      "provincial_sum": 36594100.0,
+      "national_value": 36594175.0,
+      "diff_pct": 0.0002
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2023,
+      "provincial_sum": 37750200.0,
+      "national_value": 37750146.0,
+      "diff_pct": 0.0001
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "year": 2024,
+      "provincial_sum": 38912800.0,
+      "national_value": 38912568.0,
+      "diff_pct": 0.0006
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2000,
+      "provincial_sum": 1041.0,
+      "national_value": 1041.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2001,
+      "provincial_sum": 1225.0,
+      "national_value": 1225.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2002,
+      "provincial_sum": 1396.0,
+      "national_value": 1396.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2003,
+      "provincial_sum": 1552.0,
+      "national_value": 1552.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2004,
+      "provincial_sum": 1731.0,
+      "national_value": 1731.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2005,
+      "provincial_sum": 1792.0,
+      "national_value": 1792.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2006,
+      "provincial_sum": 1867.0,
+      "national_value": 1867.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2007,
+      "provincial_sum": 1908.0,
+      "national_value": 1908.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2008,
+      "provincial_sum": 2263.0,
+      "national_value": 2263.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2009,
+      "provincial_sum": 2305.0,
+      "national_value": 2305.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2010,
+      "provincial_sum": 2358.0,
+      "national_value": 2358.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2011,
+      "provincial_sum": 2409.0,
+      "national_value": 2409.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2012,
+      "provincial_sum": 2442.0,
+      "national_value": 2442.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2013,
+      "provincial_sum": 2491.0,
+      "national_value": 2491.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2014,
+      "provincial_sum": 2529.0,
+      "national_value": 2529.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2015,
+      "provincial_sum": 2560.0,
+      "national_value": 2560.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2016,
+      "provincial_sum": 2596.0,
+      "national_value": 2596.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2017,
+      "provincial_sum": 2631.0,
+      "national_value": 2631.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2018,
+      "provincial_sum": 2663.0,
+      "national_value": 2663.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2019,
+      "provincial_sum": 2688.0,
+      "national_value": 2688.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2020,
+      "provincial_sum": 2738.0,
+      "national_value": 2738.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2021,
+      "provincial_sum": 2756.0,
+      "national_value": 2756.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2022,
+      "provincial_sum": 2760.0,
+      "national_value": 2760.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2023,
+      "provincial_sum": 2822.0,
+      "national_value": 2822.0,
+      "diff_pct": 0.0
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "year": 2024,
+      "provincial_sum": 2870.0,
+      "national_value": 2870.0,
+      "diff_pct": 0.0
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "check": "yoy_anomaly",
+      "message": "birth_rate 310000 2011->2012: 6.97 -> 9.56 (37.2% change; meth nbs_annual_pop_change_survey->nbs_annual_pop_change_survey)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "birth_rate 370000 2015->2016: 12.55 -> 17.89 (42.5% change; meth nbs_annual_pop_change_survey->nbs_annual_pop_change_survey)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 120000 2000->2001: 21.0 -> 33.0 (57.1% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 140000 2000->2001: 24.0 -> 33.0 (37.5% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 330000 2001->2002: 39.0 -> 61.0 (56.4% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 350000 2003->2004: 39.0 -> 53.0 (35.9% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 360000 2001->2002: 33.0 -> 47.0 (42.4% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 370000 2000->2001: 47.0 -> 65.0 (38.3% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 420000 2007->2008: 86.0 -> 118.0 (37.2% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 460000 2000->2001: 5.0 -> 9.0 (80.0% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 540000 2005->2006: 4.0 -> 6.0 (50.0% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 620000 2000->2001: 18.0 -> 25.0 (38.9% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 630000 2001->2002: 8.0 -> 11.0 (37.5% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_institutions 640000 2001->2002: 8.0 -> 12.0 (50.0% change; meth moe_nbs_regular_vocational_hei->moe_nbs_regular_vocational_hei)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 130000 2000->2001: 252600.0 -> 350500.0 (38.8% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 150000 2000->2001: 71900.0 -> 99600.0 (38.5% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 330000 2000->2001: 192400.0 -> 293100.0 (52.3% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 360000 2001->2002: 196500.0 -> 266300.0 (35.5% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 360000 2003->2004: 358600.0 -> 489900.0 (36.6% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 370000 2000->2001: 325300.0 -> 449400.0 (38.1% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 410000 2000->2001: 273400.0 -> 369100.0 (35.0% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 460000 2000->2001: 19200.0 -> 26100.0 (35.9% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 520000 2000->2001: 79800.0 -> 108200.0 (35.6% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "higher_education_students 540000 2003->2004: 10400.0 -> 14700.0 (41.3% change; meth moe_nbs_regular_vocational_undergrad_college->moe_nbs_regular_vocational_undergrad_college)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "hospital_beds_per_1000 310000 2011->2012: 7.55 -> 4.61 (38.9% change; meth nhc_nbs_all_health_institution_beds_per_1k->nhc_nbs_all_health_institution_beds_per_1k)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "hospital_beds_per_1000 520000 2011->2012: 2.77 -> 4.0 (44.4% change; meth nhc_nbs_all_health_institution_beds_per_1k->nhc_nbs_all_health_institution_beds_per_1k)"
+    },
+    {
+      "check": "yoy_anomaly",
+      "message": "physicians_per_1000 150000 2008->2009: 2.03 -> 2.82 (38.9% change; meth nhc_nbs_licensed_assistant_physicians_per_1k->nhc_nbs_licensed_assistant_physicians_per_1k)"
+    }
+  ]
+}
