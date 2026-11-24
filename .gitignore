@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+app/.next/
+app/out/
+app/node_modules/
+app/playwright-report/
+app/test-results/
+app/.vercel/
+.vercel/
+.DS_Store
+*.log
+.env
+.env.*
+# Exclude raw NBS webpage HTML/CSS markup from public repo redistribution per NBS website terms
+data/raw/nbs_yearbook_toc/
+data/raw/nbs_communique/
+data/raw/nbs_census2020/
+*.zip
