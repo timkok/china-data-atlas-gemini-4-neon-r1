@@ -1,0 +1,11 @@
+task_id,task_description,status,steps,clicks,data_year,verification_result,evidence,failure_reason
+Task A,查找广东最新可用的常住人口，并定位官方来源,Pass,首页点击年末常住人口卡片 -> 矩阵点击广东(440000) -> 点击追溯原始官方表格,3,2025,"页面显示12,859万人，与observations.csv(12859)及国家数据分省年度表完全一致",screenshots/indicator-desktop.png,
+Task B,比较江苏、浙江和广东2015年以来的人口变化,Pass,进入/indicators/population -> 点击苏浙粤(2015至今)快捷组合 -> 检查折线图与区间变动表,2,2015-2025,苏浙粤2015-2025趋势折线图与绝对变化/累计变动/CAGR表准确渲染,reports/browser_test_report.json,
+Task C,查看2020年65岁及以上人口占比排名，并确认普查口径,Pass,进入/indicators/population_65plus -> 点击2020年(七普全数口径) -> 核对七普第五号公报横幅及辽宁#1排名,2,2020,明确标注第七次全国人口普查全数登记口径(全国13.50%)，辽宁以17.42%位居第1,reports/browser_test_report.json,
+Task D,查找最新可用的省级人均GDP数据，明确当前价格口径和统计年份,Pass,进入/indicators/gdp_per_capita -> 核验现价口径标签、2025全国/省级年份及北京第1位数值,1,2025,"明确标示现价口径(Current Prices)，2025全国99,665元、北京238,705元/人居首",reports/browser_test_report.json,
+Task E,比较山东、河南、广东的居民人均可支配收入,Pass,进入/indicators/disposable_income -> 点击鲁豫粤对比 -> 核验折线图与区间对比表数值,2,2010-2025,"成功同图对比鲁豫粤居民人均可支配收入，广东2025年53,669元与CSV一致",reports/browser_test_report.json,
+Task F,查找每千人口执业（助理）医师数排名,Pass,进入/indicators/physicians_per_1000 -> 查看2024省级排名表及升降序切换,2,2024,2024年31省完整排名准确呈现，北京5.79人/千人居全国首位，支持升降序与七大区域筛选,reports/browser_test_report.json,
+Task G,下载筛选后的真实数据 CSV，并与页面数据核对,Pass,进入/indicators/gdp Data Explorer -> 筛选2025年+华东(7条) -> 点击下载筛选后CSV并校验文件行,3,2025,下载CSV含1表头+7华东省份数据行，与页面7条筛选记录完全一致且不含华东外省份,screenshots/data-explorer.png,
+Task H,使用手机完成指标搜索、年份切换和数据来源查看,Pass,390px移动端点击搜索->输入床位跳转->切换2020年->点击广东查看官方溯源弹窗,5,2020,390px视口零横向溢出，搜索/切年/官方表格溯源全流程畅通,screenshots/indicator-mobile.png,
+Task I,选择一个不存在数据的年份，验证网站没有生成虚假数值,Pass,进入/indicators/hospital_beds_per_1000 -> 矩阵切换至2009年 & Data Explorer切换至2025年,2,2009 / 2025 (missing),页面明确展示空缺提示且条数为0，无任何补零或插值虚假数值,reports/browser_test_report.json,
+Task J,从网站任意一个统计数值追溯到具体官方表格,Pass,点击矩阵或Data Explorer行内出处 -> 打开单条数值官方溯源弹窗 -> 核验表名、定位符与官方URL,2,2025,成功追溯至「国家数据-分省年度数据-人口-总人口-年末常住人口」及官方URL(https://data.stats.gov.cn/dg/website/page.html#/pc/national/fsYearData),reports/browser_test_report.json,

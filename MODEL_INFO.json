@@ -1,0 +1,24 @@
+{
+  "model_name": "Gemini 4 Neon",
+  "model_version": "Gemini 4 Neon (Extra High; specific checkpoint version unavailable)",
+  "execution_environment": "Antigravity Agent on macOS (Node v25.9.0, Python 3.14.4, DuckDB 2.0.1, Playwright Chromium 1.52)",
+  "run_id": "china-data-atlas-gemini-4-neon-r1-20261124",
+  "started_at": "2026-11-24T03:28:05Z",
+  "completed_at": "2026-11-24T04:15:00Z",
+  "tools_used": [
+    "run_command",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search_web",
+    "invoke_subagent (browser)",
+    "list_plugin_accounts",
+    "gdrive CLI",
+    "gh CLI",
+    "vercel CLI",
+    "pytest",
+    "vitest",
+    "playwright",
+    "lighthouse"
+  ]
+}
